@@ -11,11 +11,11 @@ Update: Modify existing product details.
 Delete: Remove a product from the database.
 
 API Documentation
-POST /product/product/add: Create a new product.
-Request Body: Product details.
-GET /product/products: Get a list of all products.
-GET /product/productDtos: Get a list of ProductDtos.
-GET /product/product/{id}: Get a product by ID (path variable).
-Parameters: id (Product ID).
-GET /product/product?id={id}: Get a product by ID (query parameter).
-Parameters: id (Product ID).
+#POST /product/product/add: Create a new product.
+#Request Body: Product details.
+#GET /product/products: Get a list of all products.
+#GET /product/productDtos: Get a list of ProductDtos.
+#GET /product/product/{id}: Get a product by ID (path variable).
+*Parameters: id (Product ID).
+#GET /product/product?id={id}: Get a product by ID (query parameter).
+*Parameters: id (Product ID).
